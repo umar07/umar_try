@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
 public class ScannerTest{
-  public static void main(String arg[]){
+  public static void main(String args[]){
 
     // scanner gets its input from the console.
-    Scanner scanner = new Scanner(System.in);
-    String name = "";
+    Scanner sc = new Scanner(System.in);
+    String name;
 
     // Get the user's name.
     System.out.print("Your name, adventurer? >");
-    name = scanner.next();
+    name = sc.next();
     System.out.println();
 
     // Print their name in a a message.
